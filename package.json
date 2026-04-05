@@ -1,15 +1,13 @@
 {
   "name": "lava-ticket-bot",
-  "version": "1.0.0",
-  "description": "System ticketów dla serwera Lava",
+  "version": "1.1.0",
   "main": "core.js",
   "scripts": {
-    "start": "node core.js",
+    "start": "node deploy.js && node core.js",
     "deploy": "node deploy.js"
   },
   "dependencies": {
-    "discord.js": "^14.13.0"
-  },
-  "author": "Lava Team",
-  "license": "ISC"
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
 }
