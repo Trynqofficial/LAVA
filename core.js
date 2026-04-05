@@ -18,7 +18,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const TOKEN = process.env.DISCORD_TOKEN;
-const GUILD_ID = '1465447308111118520'; 
+const GUILD_ID = '1489951377072455710'; 
 
 const client = new Client({ 
     intents: [
